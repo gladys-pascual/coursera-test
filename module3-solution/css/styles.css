@@ -1,0 +1,81 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+#header-nav {
+  background-color: rgb(187, 183, 183);
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+#nav-button {
+  border: 2px solid black;
+}
+
+/* #nav-button > .icon-bar {
+  border: 1.5px solid black;
+} */
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 2px solid black;
+  font-size: 1.3em;
+  color: black;
+  text-align: center;
+  background-color: whitesmoke;
+}
+#nav-list a:hover {
+  background: #d8d7d7;
+}
+
+h1 {
+  color: black;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.row {
+  height: 1000px;
+  background-color: rgb(187, 183, 183);
+  margin: auto;
+  position: relative;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .row {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
