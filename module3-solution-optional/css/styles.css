@@ -23,10 +23,6 @@ body {
   border: 2px solid black;
 }
 
-/* #nav-button > .icon-bar {
-  border: 1.5px solid black;
-} */
-
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
   border: 2px solid black;
@@ -57,19 +53,25 @@ h1 {
   margin-bottom: 20px;
 }
 
-h2 {
+h3 {
   color: black;
   font-size: 1.5em;
   font-weight: 700;
-  text-align: center;
-  margin-top: 10px;
+  margin-top: 0px;
+}
+.container-fluid {
+  margin: 15px;
 }
 
-.row {
-  height: 1000px;
-  background-color: rgb(187, 183, 183);
-  margin-left: 15px;
-  margin-right: 15px;
+.menu {
   position: relative;
-  width: 100%;
+  height: 700px;
+  background-color: rgb(187, 183, 183);
+  padding: 10px;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-top: 20px;
 }
