@@ -1,69 +1,60 @@
 /********** Base styles **********/
 * {
-    box-sizing: border-box;
-  }
-  body{
-      font-family: Arial, Helvetica, sans-serif;
-      color:black;
-      margin:50px;     
-  }
- 
-  h1 {
-   text-align: center;
-   margin-top:50px;
-   margin-bottom:30px;
-   font-size: 175%;
-  }
-  
-  .title{
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 0em;
-    width:40%;
-    height: auto;
-    position: relative;
-    left:60%; 
-    font-size: 125%;
-  } 
-  /* Different background colours for each meat */
-  .chicken{
-    background-color:rgb(243, 177, 221);
-  }
-  .beef{
-   background-color:rgb(176, 250, 215);
-  } 
-  .sushi{
-    background-color:rgb(177, 187, 243);
-  }
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 50px;
+}
 
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 175%;
+}
 
-  section{
-    background-color: rgb(196, 193, 193);
-    border: 1px solid black;
-    width:90%;
-    height: 100%;
-    text-align: left;
-    padding: 0px 0px 10px 10px;
-    margin-top: 20px;
-    float: left;
-    margin-right:auto;
-    margin-left:1%;
-    font-size: 100%;
-  }
+.title {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0em;
+  width: 40%;
+  height: auto;
+  position: relative;
+  left: 60%;
+  font-size: 125%;
+}
+/* Different background colours for each meat */
+.chicken {
+  background-color: rgb(243, 177, 221);
+}
+.beef {
+  background-color: rgb(176, 250, 215);
+}
+.sushi {
+  background-color: rgb(177, 187, 243);
+}
 
-  /* Simple Responsive Framework. */
-  .row {
-    width: 100%;
-  }
+section {
+  background-color: rgb(196, 193, 193);
+  border: 1px solid black;
+  width: 90%;
+  height: 100%;
+  text-align: left;
+  padding: 0px 0px 10px 10px;
+  margin-top: 20px;
+  float: left;
+  margin-right: auto;
+  margin-left: 1%;
+  font-size: 100%;
+}
 
-  /********** Large devices only **********/
+/* Simple Responsive Framework. */
+/********** Large devices only **********/
 @media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    border: 1px solid black;
-  }
   .col-lg-4 {
     width: 32.33%;
   }
@@ -71,10 +62,6 @@
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6, .col-md-12 {
-    float: left;
-    border: 1px solid black;
-  }
   .col-md-6 {
     width: 49%;
   }
@@ -82,7 +69,3 @@
     width: 100%;
   }
 }
-
-
-
-
